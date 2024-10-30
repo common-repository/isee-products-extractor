@@ -1,0 +1,94 @@
+.wpei-activation-section {
+  background-color: #fff;
+  padding: 12px 40px;
+  box-shadow: $defaultBoxShadow;
+  margin-top: 20px;
+
+  .wpei-form {
+    table {
+      button#add_shop_btn {
+        padding: 6px;
+        min-width: 215px;
+        font-size: 1.15em;
+        i.spin {
+          font-size: 2em;
+          vertical-align: middle;
+          -webkit-animation: spin 1.5s linear infinite;
+          -moz-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+          transform: scale(-1);
+        }
+      }
+    }
+  }
+
+  .wpei-notifs {
+    .alert {
+      font-size: 1.5em;
+      margin: 15px auto;
+
+      .alert-success,
+      .alert-error {
+        border-radius: 6px;
+        padding: 5px 15px;
+
+        p {
+          font-size: 0.75em;
+          line-height: 2.25;
+
+          i {
+            vertical-align: middle;
+            font-size: 2em;
+          }
+        }
+      }
+
+      .alert-success {
+        background-color: $successBackColor;
+        border-color: $successBorderColor;
+        color: $darkGreen;
+      }
+
+      .alert-error {
+        background-color: $errorBackColor;
+        border-color: $errorBorderColor;
+        color: $errorColor;
+      }
+
+      .alert-heading {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wpei-activation-section {
+    padding: 8px;
+
+    .wpei-notifs {
+      .alert {
+        text-align: center;
+      }
+    }
+  }
+}

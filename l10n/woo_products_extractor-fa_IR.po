@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce products extractor for isee\n"
+"POT-Creation-Date: 2024-04-28 16:21+0330\n"
+"PO-Revision-Date: 2024-04-29 12:17+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: main.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin_ajax.php:27
+msgid "Your site has already been registered!"
+msgstr "فروشگاه شما قبلا ثبت شده است!"
+
+#: admin/admin_ajax.php:56
+msgid ""
+"Error in registering the store in IC! \n"
+" Please try again."
+msgstr ""
+"خطا در ثبت فروشگاه!\n"
+"لطفا دقایقی دیگر مجددا تلاش نمایید."
+
+#: admin/admin_ajax.php:68
+msgid "The operation was done successfully."
+msgstr "ثبت فروشگاه با موفقیت انجام شد."
+
+#: admin/admin_ajax.php:111
+msgid ""
+"Error in fetching data! \n"
+" Please try again."
+msgstr ""
+"خطا در دریافت اطلاعات! \n"
+"لطفا دقایقی دیگر مجددا تلاش نمایید."
+
+#. Plugin Name of the plugin/theme
+#: admin/admin_process.php:9 admin/admin_process.php:10
+msgid "Isee products extractor"
+msgstr "موتور جستجوی  Isee"
+
+#: admin/admin_process.php:21 admin/admin_process.php:22
+msgid "Activation Settings"
+msgstr "ثبت و فعالسازی"
+
+#: admin/admin_process.php:33 admin/admin_process.php:34
+msgid "Products List Table"
+msgstr "لیست محصولات"
+
+#: admin/admin_process.php:43 admin/admin_process.php:44
+msgid "Most Clicked Products List Table"
+msgstr "محصولات پرکلیک"
+
+#: admin/admin_process.php:74 admin/pages/activation.php:7
+msgid "Check again"
+msgstr "بررسی مجدد"
+
+#: admin/admin_process.php:75 admin/templates/ctrChart_template.php:3
+msgid "Site products ctr"
+msgstr "نرخ کلیک محصولات"
+
+#: admin/admin_process.php:76
+msgid "There is no available product to display!"
+msgstr "محصولی که دارای قیمت باشد در سایر فروشگاه ها یافت نشد!"
+
+#: admin/admin_process.php:78
+msgid "View"
+msgstr "مشاهده"
+
+#: admin/admin_process.php:79 admin/dashboard_widgets.php:56
+msgid "An unexpected error occurred!"
+msgstr "یک خطای نامشخص رخ داد!"
+
+#: admin/dashboard_widgets.php:6
+msgid "CTR Chart"
+msgstr "نمودار نرخ کلیک"
+
+#: admin/pages/activation.php:6
+#: admin/templates/activationNotice_template.php:30
+msgid "Submit and enable site"
+msgstr "ثبت فروشگاه در سامانه آیسی"
+
+#: admin/pages/activation.php:11
+msgid "Registration site in the isee"
+msgstr "تنظیمات ثبت فروشگاه"
+
+#: admin/pages/activation.php:20
+msgid "Your site has not been submitted to isee!"
+msgstr "فروشگاه شما در موتور جستجوی آیسی ثبت نشده است!"
+
+#: admin/pages/most_clicked_products.php:38
+msgid "List Of Most Clicked Products In Isee"
+msgstr "لیست محصولات پرکلیک 6 ماه گذشته"
+
+#: admin/pages/most_clicked_products.php:45 admin/pages/products_list.php:115
+msgid "Title"
+msgstr "نام محصول"
+
+#: admin/pages/most_clicked_products.php:46 admin/pages/products_list.php:116
+msgid "Picture"
+msgstr "تصویر"
+
+#: admin/pages/most_clicked_products.php:47 admin/pages/products_list.php:117
+msgid "Status"
+msgstr "وضعیت موجودی"
+
+#: admin/pages/most_clicked_products.php:48 admin/pages/products_list.php:118
+#: admin/templates/minPriceModal_template.php:22
+msgid "Price"
+msgstr "قیمت"
+
+#: admin/pages/most_clicked_products.php:49 admin/pages/products_list.php:120
+msgid "Grouping Status"
+msgstr "وضعیت دسته بندی"
+
+#: admin/pages/most_clicked_products.php:51 admin/pages/products_list.php:122
+msgid "Show Minimum Prices"
+msgstr "قیمت در سایر فروشگاه ها"
+
+#: admin/pages/most_clicked_products.php:54
+msgid "Click Count"
+msgstr "تعداد کلیک"
+
+#: admin/pages/most_clicked_products.php:62 admin/pages/products_list.php:130
+msgid "There is no data to display!"
+msgstr "موردی برای نمایش یافت نشد!"
+
+#: admin/pages/most_clicked_products.php:94 admin/pages/products_list.php:160
+msgid "Unavailable"
+msgstr "ناموجود"
+
+#: admin/pages/most_clicked_products.php:96 admin/pages/products_list.php:162
+msgid "Available"
+msgstr "موجود"
+
+#: admin/pages/products_list.php:70
+msgid "List Of Products In Isee"
+msgstr "لیست محصولات موجود در آیسی"
+
+#: admin/pages/products_list.php:84
+msgid "All"
+msgstr "همه"
+
+#: admin/pages/products_list.php:91
+msgid "Grouped"
+msgstr "ادغام شده"
+
+#: admin/pages/products_list.php:97
+msgid "Not Grouped"
+msgstr "ادغام نشده"
+
+#: admin/pages/products_list.php:107
+msgid "Search in products"
+msgstr "جستجو در محصولات"
+
+#: admin/pages/products_list.php:119
+msgid "Last Update"
+msgstr "آخرین بروزرسانی"
+
+#: admin/pages/products_list.php:224
+msgid "Page"
+msgstr "صفحه"
+
+#: admin/pages/products_list.php:225
+msgid " from "
+msgstr " از "
+
+#: admin/pages/products_list.php:235
+msgid "Last Page"
+msgstr "آخرین صفحه"
+
+#: admin/templates/activationNotice_template.php:24
+#: admin/templates/ctrChart_template.php:23
+msgid "Products CTR Chart in Isee"
+msgstr "نرخ کلیک  بر روی محصولات در موتور جستجوی آیسی (ماهانه)"
+
+#: admin/templates/minPriceModal_template.php:16
+msgid "Reference Product Link In Isee"
+msgstr "لینک محصول مرجع در آیسی"
+
+#: admin/templates/minPriceModal_template.php:20
+msgid "Row"
+msgstr "ردیف"
+
+#: admin/templates/minPriceModal_template.php:21
+msgid "Site Title"
+msgstr "نام فروشگاه"
+
+#: main.php:50
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. Description of the plugin/theme
+msgid "Extract products plugin for isee"
+msgstr "افزونه استخراج محصولات ووکامرس برای موتور جستجوی آیسی"
+
+#. Author of the plugin/theme
+msgid "sisoog"
+msgstr "سیسوگ"
+
+#. Author URI of the plugin/theme
+msgid "https://sisoog.com"
+msgstr ""
+
+#~ msgid "View Click Rate Chart"
+#~ msgstr "نمودار نرخ کلیک"
+
+#~ msgid "Most Clicked Products"
+#~ msgstr "محصولات پرکلیک"
+
+#~ msgid "General Settings"
+#~ msgstr "ثبت و فعالسازی"
+
+#~ msgid "Most Clicks Lead To Purchases"
+#~ msgstr "محصولات با بیشترین کلیک منجر به خرید"
+
+#~ msgid "Product Name"
+#~ msgstr "عنوان"
+
+#~ msgid "Sort By Grouping Status"
+#~ msgstr "مرتب سازی بر اساس وضعیت ادغام"
+
+#~ msgid "Submit and check status"
+#~ msgstr "ثبت و بررسی وضعیت فروشگاه"
+
+#~ msgid "Submit"
+#~ msgstr "ثبت و بررسی وضعیت"
+
+#~ msgid "Elements per page"
+#~ msgstr "تعداد آیتم در صفحه"
+
+#~ msgid "Stats List Table"
+#~ msgstr "لیست محصولات"
+
+#~ msgid "search"
+#~ msgstr "جستجو"
+
+#~ msgid "name"
+#~ msgstr "نام قطعه"

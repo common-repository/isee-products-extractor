@@ -1,0 +1,116 @@
+.wpei-products-list {
+  width: 98%;
+  margin: 20px auto;
+
+  .header-buttons-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 4px 0;
+  }
+
+  table.isee-products {
+    .column-status {
+      .available {
+        color: $lightGreen;
+      }
+
+      .unavailable {
+        color: $lightRed;
+      }
+    }
+
+    tr,
+    td,
+    th {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    td.column-title {
+      color: $lightBlue;
+    }
+
+    tr,
+    td,
+    th {
+      &:first-child {
+        text-align: right;
+      }
+    }
+
+    span.dashicons-before {
+      &::before {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .tablenav-pages {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    margin-top: 6px;
+
+    .tablenav-paging-text {
+      vertical-align: sub;
+    }
+  }
+
+  .button.button-primary {
+    padding: 5px 15px;
+  }
+}
+
+#TB_ajaxContent {
+  margin: 0 auto;
+}
+
+#ctr_modal_loading,
+#min_price_modal_loading,
+#most_clicked_modal_loading {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.modal-simple-table {
+  caption {
+    font-size: 1.15em;
+    padding: 20px;
+    font-weight: 600;
+    line-height: 2.5;
+
+    strong {
+      color: $lightBlue;
+    }
+  }
+  thead {
+    tr th {
+      font-weight: 600 !important;
+    }
+  }
+
+  tbody {
+    td {
+      text-align: right;
+    }
+  }
+
+  .cheaper {
+    color: $lightRed;
+  }
+  .more-expensive {
+    color: $darkGreen;
+  }
+}
+
+a.button {
+  .dashicons-before {
+    vertical-align: middle;
+  }
+}

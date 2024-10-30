@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .error-container {
+        max-width: 100%;
+    }
+
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-primary~td:not(.check-column) {
+        padding: 12px;
+    }
+
+}

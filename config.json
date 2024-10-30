@@ -1,0 +1,8 @@
+{
+  "ISEE_BASE_URL": "https://isee.sisoog.com",
+  "VERIFY_TOKEN_URL": "https://isee.sisoog.com/crawls/validate_token",
+  "API_BASE_URL": "https://isee.sisoog.com/api/v1",
+  "ISEE_ICDN_URL": "https://icdn.sisoog.com/",
+  "PAGINATION_LIMIT": 20,
+  "CACHE_DURATION": 86400
+}
